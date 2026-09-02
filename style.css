@@ -1,0 +1,21 @@
+/*cor de fundo, font e cor da escrita*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eafcffcc;
+    color: #333; 
+}
+/*define cor do cabeçalho, cor do titulo, alinha o texto e a distancia dos outros elementos*/
+header {
+    background-color: #2196f3;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+/*esta mudando a distancia do titulo para a discrição*/
+header h1 {
+    margin-bottom: 50px;
+}
+/*muda a distancia da barra de pesquisa em relação a escrita*/
+main {
+    padding: 40px;
+}
