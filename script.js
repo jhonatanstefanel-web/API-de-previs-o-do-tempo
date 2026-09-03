@@ -154,6 +154,13 @@ function buscarClima() {
 
     console.log("Código do clima:", codigoClima);
 
+    document.getElementById("resultado").
+    innerHTML = `
+            <h2>Resultado</h2>
+            <p>🌡️ Temperatura: ${temperatura}°C</p>   
+            <p>💦 Umidade: ${umidade}%</p>
+            <p>💨 Vento: ${vento} km/h</p>`;       
+
   })
 
   .catch(erro => {

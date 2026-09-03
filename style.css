@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #eafcffcc;
     color: #000000; 
+    font-size: 16px;
+    padding: 10px;
 }
 /*define cor do cabeçalho, cor do titulo, alinha o texto e a distancia dos outros elementos*/
 header {
@@ -18,4 +20,45 @@ header h1 {
 /*muda a distancia da barra de pesquisa em relação a escrita*/
 main {
     padding: 70px;
+}
+
+
+.container {
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.caixa {
+    width: 100%;
+}
+
+input, button {
+    width: 100%;
+}
+
+@media (min-widht: 600px) {
+    .container {
+        max-width: 480px;
+        margin: 0 auto;
+        padding: 32px;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    button {
+        width: 28%;
+    }
+}
+
+input, button {
+    min-height: 44px;
+    font-size: 16px;
+    padding: 10px 14px;
+}
+
+button {
+    margin-top: 8px;
 }
